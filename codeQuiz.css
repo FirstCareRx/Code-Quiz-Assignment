@@ -1,0 +1,62 @@
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#nav {
+    display: block;
+    background-color: white;
+    display: inline-block;
+    width: 98vw;
+    margin: 6px;
+}
+@media screen and (max-width: 500px) {
+    .nav {
+      float: none;
+      display: block;
+    }
+  }
+
+
+body {
+    font-family: 'Roboto Slab', arial;
+    background-color: white;
+}
+
+#quizBody {
+    text-align: center;
+    padding: 12vh;
+}
+
+h4 {
+    padding: 10px 8px 10px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family: 'Roboto Slab', arial;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: lightsalmon;
+}
+
+#quiz {
+    text-align: center;
+}
+
